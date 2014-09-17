@@ -8,7 +8,7 @@
 #1
 ?read.table
 getwd()
-setwd("C:\\Users\\kohza_000\\Desktop\\Data Analytics\\R")
+setwd("C:\\Users\\kohza_000\\Desktop\\CMDA\\CMDA\\R")
 read.table("Data Sets\\prices.txt", col.names=c("Col 1", "Col 2", "Col 3", "Col 4"))
 #row.names is just like col.names; it labels each of the rows with a name.  
 read.csv("Data Sets\\prices.csv") #Did read.table as well as read.csv
